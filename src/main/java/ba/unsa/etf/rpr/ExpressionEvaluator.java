@@ -2,7 +2,7 @@ package ba.unsa.etf.rpr;
 
 import java.util.Stack;
 
-public class ExpressionEvaulator {
+public class ExpressionEvaluator {
     public static double evaluate(String s){
         Stack<String> ops = new Stack<>();
         Stack<Double> vals = new Stack<>();
