@@ -7,12 +7,10 @@ public class App
 {
     /**
      * main metoda
-     * @param args
+     * @param args -niz stringova proslijeđen metodi
      */
     public static void main( String[] args ){
-
-        //String a = args[0];
-        String a = "( 5 + ( 4 * ( sqrt ( 4 ) ) )";
+        String a = args[0];
         try{
             double b = ExpressionEvaluator.evaluate(a);
             System.out.println(b);

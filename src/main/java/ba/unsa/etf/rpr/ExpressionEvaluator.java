@@ -2,7 +2,15 @@ package ba.unsa.etf.rpr;
 
 import java.util.Stack;
 
+/**
+ * ExpressionEvaluator klasa
+ */
 public class ExpressionEvaluator {
+    /**
+     * Metoda koja koristi Dijkstra algoritam za računanje vrijednosti aritmetičkog izraza proslijeđenog kao string
+     * @param s - Aritmetički izraz proslijeđen metodi kao String
+     * @return vraća vrijednost aritmetičkog izraza koji je proslijeđen kao string
+     */
     public static double evaluate(String s){
         Stack<String> ops = new Stack<>();
         Stack<Double> vals = new Stack<>();
